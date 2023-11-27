@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 :root {
     --red: #DC3545;
     --gold: #dda703;
@@ -27,6 +33,7 @@ main {
     .navbar-brand {
         font-size: clamp(0.875rem, 0.7614rem + 0.5682vw, 1.125rem) !important;
         font-weight: 400;
+        padding-left: 30px;
     }
 
     .colour1 {
