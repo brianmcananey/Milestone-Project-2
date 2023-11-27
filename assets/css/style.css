@@ -184,7 +184,7 @@ main {
     }
 
     hr {
-        border: dashed 2px var(--blue) !important;
+        border: dashed 2px --blue !important;
     }
 
     .socials>a {
