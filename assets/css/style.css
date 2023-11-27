@@ -1,0 +1,225 @@
+:root {
+    --red: #DC3545;
+    --gold: #dda703;
+    --blue: #0D6EFD;
+}
+
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+main {
+    padding: 20px 10px;
+}
+
+/* Mobile Styling*/
+@media screen and (min-width: 260px) {
+
+    /* General Styling */
+    .header {
+        font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
+        text-align: center;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+
+    /* Nav bar */
+    .navbar-brand {
+        font-size: clamp(0.875rem, 0.7614rem + 0.5682vw, 1.125rem) !important;
+        font-weight: 400;
+    }
+
+    .colour1 {
+        color: var(--red);
+    }
+
+    .colour2 {
+        color: var(--blue);
+    }
+
+    .nav-link {
+        color: var(--blue) !important;
+        font-size: clamp(0.875rem, 0.7614rem + 0.5682vw, 1.125rem) !important;
+    }
+
+    .active {
+        color: var(--red) !important;
+    }
+
+    /* Index */
+    .index-title {
+        color: var(--red);
+        font-size: clamp(1.5rem, 0.4773rem + 5.1136vw, 3.75rem);
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .title-img {
+        margin: 0 auto 20px auto;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .index-subtitle {
+        font-size: clamp(1rem, 0.7159rem + 1.4205vw, 1.625rem);
+        color: var(--blue);
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    /* Buttons */
+    .buttons {
+        margin: 10px 0 20px 0;
+    }
+
+    a {
+        padding: 10px;
+        font-weight: 500;
+        font-size: clamp(1rem, 0.8864rem + 0.5682vw, 1.25rem) !important;
+    }
+
+    .nav-btn {
+        padding: 10px 0 !important;
+    }
+
+    /* How To */
+    .how-to {
+        background-color: #0D6EFD;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-size: clamp(0.875rem, 0.7045rem + 0.8523vw, 1.25rem);
+    }
+
+    /* Quiz */
+    .wrapper {
+        background-color: var(--red);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title-q {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .quiz-score {
+        text-align: center;
+        color: #ffffff;
+        font-size: clamp(1.125rem, 0.7841rem + 1.7045vw, 1.875rem);
+        display: block;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        margin: 20px 0;
+    }
+
+    .quiz-img {
+        width: 160px;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #quiz-container {
+        padding: 10px;
+    }
+
+    .score-icon {
+        color: white;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    /* Final Score */
+    #score {
+        background-color: var(--gold);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .final-score {
+        font-size: 40px;
+    }
+
+    #score-message {
+        font-size: clamp(1.125rem, 0.8977rem + 1.1364vw, 1.625rem);
+    }
+
+    #fun-fact {
+        padding: 0 10px 10px 10px;
+        font-size: clamp(0.875rem, 0.6477rem + 1.1364vw, 1.375rem);
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: var(--red);
+        font-size: 12px !important;
+    }
+
+    .footer-link:hover {
+        color: var(--blue);
+    }
+
+    hr {
+        border: dashed 2px var(--blue) !important;
+    }
+
+    .socials>a {
+        margin: 5px 2.5px 10px 2.5px;
+        font-size: clamp(1.125rem, 0.8977rem + 1.1364vw, 1.625rem) !important;
+        color: var(--red);
+    }
+
+    .socials>a:hover {
+        color: var(--blue);
+    }
+}
+
+/* Tablet Styling*/
+@media screen and (min-width: 768px) {
+    main {
+        padding: 20px 30px;
+    }
+
+    .how-to {
+        padding: 20px;
+    }
+
+    .index-subtitle {
+        padding-bottom: 20px;
+    }
+}
+
+/* Desktop Styling*/
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 20px 60px;
+    }
+
+    /* How To */
+    .how-to {
+        padding: 30px;
+    }
+
+    /* Footer */
+    .footer-link:hover {
+        color: var(--blue) !important;
+        text-decoration: underline
+    }
+}
