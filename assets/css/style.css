@@ -36,6 +36,10 @@ main {
         padding-left: 30px;
     }
 
+    .navbar-nav {
+        padding-right: 30px;
+    }
+
     .colour1 {
         color: var(--red);
     }
@@ -184,7 +188,7 @@ main {
     }
 
     hr {
-        border: dashed 2px --blue !important;
+        border: solid 1px var(--blue) !important;
     }
 
     .socials>a {
