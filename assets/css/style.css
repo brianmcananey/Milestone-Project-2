@@ -4,10 +4,12 @@
     border: 0;
 }
 
+/* Colors for Site */
+
 :root {
-    --red: #DC3545;
+    --red: #d65f62;
     --gold: #dda703;
-    --blue: #0D6EFD;
+    --blue: #3b4b75;
 }
 
 * {
