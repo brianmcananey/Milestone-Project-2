@@ -50,7 +50,8 @@ const questions = [
             { text: 'Green Cheek Conure', correct: false },
             { text: 'Yellow-Naped Amazon', correct: true },
         ],
-    },;
+    },
+];
 
 
 // Starts the current question index at 0

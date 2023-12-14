@@ -6,7 +6,7 @@ $(document).ready(function () {
 // An array of objects containing quiz questions and answers
 const questions = [
     {
-        question: "this is a test question",
+        question: "assets/images/main-img/african.jpg",
         answers: [
             { text: 'African Grey', correct: true },
             { text: 'Cockatiel', correct: false },
@@ -51,7 +51,8 @@ const questions = [
             { text: 'Yellow-Naped Amazon', correct: true },
         ],
     },
-    
+];
+
     
 // Starts the current question index at 0
 var currentQuestionIndex = 0;
