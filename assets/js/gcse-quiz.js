@@ -11,7 +11,7 @@ const questions = [
     {
         question: "Who did Hitler put in charge of propoganda?",
         answers: [
-            { text: "Himler", correct: false },
+            { text: "Himmler", correct: false },
             { text: "Goebbels", correct: true },
             { text: "Heydrich", correct: false },
             { text: "Goering", correct: false },
