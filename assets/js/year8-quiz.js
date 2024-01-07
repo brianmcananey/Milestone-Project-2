@@ -8,7 +8,7 @@ const questions = [
     {
         question: "assets/images/main-img/african.jpg",
         answers: [
-            { text: 'African Grey', correct: true },
+            { text: 'Embrasures', correct: true },
             { text: 'Cockatiel', correct: false },
             { text: 'Burrowing', correct: false },
             { text: 'Sun Conure', correct: false },

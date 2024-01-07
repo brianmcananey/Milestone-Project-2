@@ -8,7 +8,6 @@
 
 :root {
     --red: #d65f62;
-    --gold: #dda703;
     --blue: #3b4b75;
 }
 
@@ -108,8 +107,7 @@ main {
 
     /* Quiz */
     .wrapper {
-        background-color: var(--red);
-        color: #ffffff;
+        background-color: #fff;
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 10px;
@@ -120,58 +118,45 @@ main {
         text-align: center;
     }
 
-    .quiz-score {
-        text-align: center;
-        color: #ffffff;
-        font-size: clamp(1.125rem, 0.7841rem + 1.7045vw, 1.875rem);
-        display: block;
-        margin: 0 auto;
+    .quiz{
+        padding: 20px 0;
     }
 
-    .image-container {
-        margin: 20px 0;
-    }
-
-    .quiz-img {
-        width: 160px;
-        border-radius: 10px;
-        display: block;
-        margin: 0 auto;
+    .btn{
+        background-color: #fff;
+        color: #fff;
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid #222 ;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: left;
+        border-radius: 5px;
+        cursor: pointer;
     }
 
     #quiz-container {
         padding: 10px;
     }
 
-    .score-icon {
-        color: white;
-        font-size: 60px;
-        margin-bottom: 20px;
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* Final Score */
-    #score {
-        background-color: var(--gold);
-        color: #ffffff;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 20px;
+    .hide {
+        display: none;
     }
 
-    .final-score {
-        font-size: 40px;
+    .correct {
+        background: #9aeabc;
     }
 
-    #score-message {
-        font-size: clamp(1.125rem, 0.8977rem + 1.1364vw, 1.625rem);
+    .incorrect {
+        background: #ff9393;
     }
 
-    #fun-fact {
-        padding: 0 10px 10px 10px;
-        font-size: clamp(0.875rem, 0.6477rem + 1.1364vw, 1.375rem);
-    }
 
     /* Footer */
     footer {

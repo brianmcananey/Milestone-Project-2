@@ -6,16 +6,16 @@ $(document).ready(function () {
 // An array of objects containing quiz questions and answers
 const questions = [
     {
-        question: "assets/images/main-img/african.jpg",
+        question: "this is a test",
         answers: [
-            { text: 'African Grey', correct: true },
+            { text: 'Embrasures', correct: true },
             { text: 'Cockatiel', correct: false },
             { text: 'Burrowing', correct: false },
             { text: 'Sun Conure', correct: false },
         ],
     },
     {
-        question: "assets/images/main-img/scarlet.jpg",
+        question: "this is another test",
         answers: [
             { text: 'Meyers', correct: false },
             { text: 'Scarlet Macaw', correct: true },
@@ -53,7 +53,7 @@ const questions = [
     },
 ];
 
-    
+
 // Starts the current question index at 0
 var currentQuestionIndex = 0;
 var currentQuestion = questions[currentQuestionIndex];
