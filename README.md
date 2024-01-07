@@ -8,7 +8,9 @@
 
 <br>
 
-![Website Mockup](pictures of site)
+<h2 align="left"><img src="assets/images/"></h2> 
+<h2 align="left"><img src=""></h2>
+<h2 align="left"><img src=""></h2>
 
 </div>
 

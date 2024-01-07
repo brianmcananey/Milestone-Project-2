@@ -4,10 +4,6 @@
 
 # Testing <!-- omit in toc -->
 
-- [Responsiveness](#responsiveness)
-  - [Known bugs and fixes](#known-bugs-and-fixes)
-
----
 
 ## Automated vs Manual Testing
 
