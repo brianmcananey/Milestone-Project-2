@@ -27,6 +27,8 @@
 - [|Footer - social media links||](#footer---social-media-links)
 - [6. Deployment](#6-deployment)
 - [7. Credits and Acknowledgments](#7-credits-and-acknowledgments)
+- [Acknowledgements](#acknowledgements)
+- [Brian McAnaney, 2023.](#brian-mcananey-2023)
 
 ## 1. Website Information
 
@@ -212,7 +214,18 @@ Once this is complete you should be able to view the webpage online, this is upd
   - Used for testing.
 - [JShint](https://jshint.com/)
   - Used for testing.
-- [GreatStack](https://youtube.com/greatstack)
+- [GreatStack](https://youtube.com/@greatstackdev)
     - Used to help with Javascript for the quiz.g
 
+## Acknowledgements
+
+- Thank you to my Mentor Rohit Sharma for helpful feedback, industry insights and recommended tools.
+
+- Thank you to the City of Bristol College for their encouragement and technical support - with special mention to Pasquale Fasulo for his continuous support.
+
+- Thank you to the tutors and staff at Code Institute for their support.
+
+History Box is fictitious. This website is purely for the sake of the developer's portfolio and not for public consumption.
+
+Brian McAnaney, 2023.
 ---

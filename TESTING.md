@@ -1,13 +1,11 @@
-[Return to README](https://github.com/lrchnnng/parrot-quiz/blob/main/README.md)
+[Return to README](https://github.com/brianmcananeyREADME.md)
 
 ---
 
 # Testing <!-- omit in toc -->
 
-- [Automated vs Manual Testing](#automated-vs-manual-testing)
-- [Manual Testing](#manual-testing)
-- [Automated Testing](#automated-testing)
-- [Known bugs and fixes](#known-bugs-and-fixes)
+- [Responsiveness](#responsiveness)
+  - [Known bugs and fixes](#known-bugs-and-fixes)
 
 ---
 
@@ -53,16 +51,6 @@ Manual testing allows the tester to explore the site and using experience and cr
 |When user gets incorrect answer, no action|✓|
 |When quiz finishes, score is stored in URL and user is automatically navigated to Final Score page|✓|
 
-|Final Score Page Testing|Yes/No|
-|---|:---:|
-|Final score is found in URL search paramater|✓|
-|Final score string is changed to an integer using parseInt() function|✓|
-|Final score is added to HTML through JaveScript DOM manipulation and appears correctly|✓|
-|Final score message is generated depending on the score using if/else|✓|
-|A randomised fun fact is selected from the array and added to the page|✓|
-|A blue button navigates to quiz how to page|✓|
-|A red button navigates back to quiz page|✓| <!-- omit in toc -->
----
 
 <div align="center">
 
@@ -72,15 +60,27 @@ Manual testing allows the tester to explore the site and using experience and cr
 
 Automated tests are repeatable and reliable as there is limited risk for human error. It allows for testing on both a small and a large scale in a quick and efficient manner. Automated testing might be used to test the performance of a site in order to ensure that it can handle page loading.
 
+# Responsiveness
+
+Responsivity tests were carried out using Google Chrome DevTools. Device screen sizes covered include:
+
+- iPhone SE
+- iPhone 12 Pro
+- Samsung Galaxy S20 Ultra
+- iPad Air
+- Surface Pro 7
+- Surface Duo
+- Samsung Galaxy A51/71
+
+I also personally tested the website on Samsung Galaxy S22, Samsung Chrome book, Dell XPS 15 laptop and a Dell widescreen monitor.
+
 ### Lighthouse <!-- omit in toc -->
 
 | Page | Test Results | Lighthouse Suggested Improvements |
 |:---:|---|---|
-|Index|![Index Lighthouse testing](assets/images/testing-img/index-lighthouse.png)|Specifying a specific width and height of my title image, I wanted to retain as much responsivity as I could and opted to use bootstrap instead.|
-|How To|![How To Lighthouse testing](assets/images/testing-img/how-to-lighthouse.png)|As with the index page, utilising font-display to ensure the user can read any text if there is an issue/delay in the loading of webfonts, this could potentially improve this score.|
-|Quiz|![Quiz Lighthouse testing](assets/images/testing-img/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
-|Final Score without animation|![Score Lighthouse testing](assets/images/testing-img/score-lighthouse.png)|Reducing unused JavaScript from the bootstrap bundle would decrease the amount of bytes consumed. I could do this either by removing them or defering them until they are needed.|
-|Final Score with animation|![Score with animation Lighthouse testing](assets/images/testing-img/score-animation-lighthouse.png)|The lighthouse report suggests reducing the impact of third-party code as it is affecting load performance significantly. I am, however, unsure of how to do this with my current knowledge but in the future would attempt to do this. An alternate option would be to remove the animation all together.|
+|Index|![Index Lighthouse testing](assets/images/homepage-lighthouse.png)|Specifying a specific width and height of my title image, I wanted to retain as much responsivity as I could and opted to use bootstrap instead.|
+|How To|![How To Lighthouse testing](assets/images/how-to-lighthouse.png)|As with the index page, utilising font-display to ensure the user can read any text if there is an issue/delay in the loading of webfonts, this could potentially improve this score.|
+|Quiz|![Quiz Lighthouse testing](assets/images/quiz-lighthouse.png)|Properly sizing the images would reduce load time and cellular data, currently some images are oversized and are slowing down the time it takes for the page to load.|
 
 ### HTML and CSS Validation <!-- omit in toc -->
 
@@ -90,7 +90,7 @@ Automated tests are repeatable and reliable as there is limited risk for human e
 
 - All of the HTML pages passed the W3C HTML Validator apart from quiz.html.
 ![HTML Validation](assets/images/testing-img/html-error.png)
-- This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute (in this case it will always be a picture of a parrot).
+- This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute.
 
 ### CSS <!-- omit in toc -->
 
