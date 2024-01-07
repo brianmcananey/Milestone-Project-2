@@ -82,15 +82,13 @@ I also personally tested the website on Samsung Galaxy S22, Samsung Chrome book,
 
 ### HTML <!-- omit in toc -->
 
-![HTML Validation](assets/images/testing-img/html-validation.png)
+![HTML Validation](assets/images/w3c.png)
 
-- All of the HTML pages passed the W3C HTML Validator apart from quiz.html.
-![HTML Validation](assets/images/testing-img/html-error.png)
-- This error has appeared due to me leaving the img element source blank which is replaced within my quiz.js file. I fixed both of these issues by using a '#' as the source and creating a general, none specific alt text attribute.
+- All of the HTML pages passed the W3C HTML Validator.
 
 ### CSS <!-- omit in toc -->
 
-![CSS Validation](assets/images/testing-img/html-validation.png)
+![CSS Validation](assets/images/w3c.png)
 
 - All pages passed the W3C CSS Validation.
 
