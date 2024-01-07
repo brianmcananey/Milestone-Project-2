@@ -204,12 +204,6 @@ Once this is complete you should be able to view the webpage online, this is upd
   - Used to find fonts across the site.
 - [Figma](https://www.figma.com/)
   - Used to create user flows and wireframes.
-- [ui.dev](https://ui.dev/amiresponsive)
-  - Used to create a mockup of web page on various screen sizes.
-- [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
-  - Used to store the user score in the url.
-- [JS Confetti](https://confetti.js.org)
-  - Used to add confetti animation to final score page.
 - [Font-size Clamp Generator](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMyMHB4IiwibWF4V2lkdGgiOiIxMDI0cHgiLCJtaW5Gb250U2l6ZSI6IjI0cHgiLCJtYXhGb250U2l6ZSI6IjYwcHgifQ%3D%3D): Used to create responsive text sizes.
   - Used for responsive text.
 - [Bootstrap](https://getbootstrap.com/)
@@ -218,5 +212,7 @@ Once this is complete you should be able to view the webpage online, this is upd
   - Used for testing.
 - [JShint](https://jshint.com/)
   - Used for testing.
+- [GreatStack](https://youtube.com/greatstack)
+    - Used to help with Javascript for the quiz.g
 
 ---
