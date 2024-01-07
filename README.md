@@ -122,8 +122,8 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 | Type | Image | Description|
 |:---:|---|---|
-|Typography|[assets/images/font.png]| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
-|Colours|[assets/images/red.png][assets/images/blue.png]|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
+|Typography|(assets/images/font.png)| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
+|Colours|(assets/images/red.png)(assets/images/blue.png)|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
 
 ---
 
