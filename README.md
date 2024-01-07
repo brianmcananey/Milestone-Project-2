@@ -2,7 +2,7 @@
 
 # History Box <!-- omit in toc -->
 
-[Testing Documentation](assets/TESTING.md)
+[Testing Documentation](TESTING.md)
 
 [Live Site](live site)
 
@@ -122,8 +122,8 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 | Type | Image | Description|
 |:---:|---|---|
-|Typography|!(assets/images/font.png)| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
-|Colours|!(assets/images/red.png)(assets/images/blue.png)|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
+|Typography|[assets/images/font.png]| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
+|Colours|[assets/images/red.png][assets/images/blue.png]|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
 
 ---
 
@@ -169,22 +169,21 @@ The surface plane is the last layer and deals with the aesthetics of the user in
   
   |Name|Screenshot|
   |:---:|:---:|
-  |Navbar Mobile|![a screenshot of navbar on mobile](screenshot navbar mobile)|
-  |Navbar Desktop|![a screenshot of navbar on desktop](screenshot navbar desktop)|
-  |Buttons|![a screenshot of buttons](assets/images/readme-img/buttons.png)|
+  |Navbar Mobile|![a screenshot of navbar on mobile](assets/images/mobile-image.png)|
+  |Navbar Desktop|![a screenshot of navbar on desktop](assets/images/desktop-image.png)|
   
-2. I want to test my current knowledge of various parrot species.
+2. I want to test my current knowledge of various history topics.
   
   |Name|Screenshot|
   |:---:|:---:|
-  |Quiz|![screenshot of quiz section](screenshot of quiz)|
+  |Quiz|![screenshot of quiz section](assets/images/mobile-image.png)|
 
 
 3. I want to easily find social media links.
   
   |Name|Screenshot|
   |:---:|:---:|
-  |Footer - social media links|![screenshot of footer section](assets/images/readme-img/footer-screenshot.png)|
+  |Footer - social media links|![screenshot of footer section](assets/images/footer.png)|
 ---
 
 ## 6. Deployment
