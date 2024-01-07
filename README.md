@@ -2,15 +2,16 @@
 
 # History Box <!-- omit in toc -->
 
-[Testing Documentation](testing.md )
+[Testing Documentation](assets/TESTING.md)
 
 [Live Site](live site)
 
 <br>
 
-<h2 align="left"><img src="assets/images/"></h2> 
-<h2 align="left"><img src=""></h2>
-<h2 align="left"><img src=""></h2>
+<h2 align="left"><img src="assets/images/desktop-image.png"></h2> 
+<h2 align="left"><img src="assets/images/ipad-image.png"></h2>
+<h2 align="left"><img src="assets/images/tablet-image.png"></h2>
+<h2 align="left"><img src="assets/images/mobile-image.png"></h2>
 
 </div>
 
@@ -93,7 +94,7 @@ The second plane of UX looks at the **scope** of the website. What does the user
 |`Button`|A button navigating to the quiz page|
 |`Footer`|A simple footer section with site creator info, a text link and social media links|
 
-|Quiz Page|An interactive quiz page with an image as the question and four options for the user to choose from|
+|Quiz Page|An interactive quiz page with a question and four options for the user to choose from|
 |:---:|---|
 |`Nav Bar`|A responsive navigation bar that allows for easy navigation to every page of the site|
 |`H1`|Used for the title of the page|
@@ -121,8 +122,8 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 | Type | Image | Description|
 |:---:|---|---|
-|Typography|![google fonts]()| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
-|Colours|![Colour Palette]()|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
+|Typography|!(assets/images/font.png)| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
+|Colours|!(assets/images/red.png)(assets/images/blue.png)|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
 
 ---
 
@@ -158,7 +159,7 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 ## 4. Testing
 
-[Click to view testing documentation]()
+[Click to view testing documentation](assets/README.md)
 
 ---
 
