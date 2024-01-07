@@ -1,47 +1,47 @@
 const questions = [
     {
-        question: "which is the largest animal",
+        question: "How many wives did Henry VIII have?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "5", correct: false },
+            { text: "6", correct: true },
+            { text: "7", correct: false },
+            { text: "8", correct: false },
         ]
     },
     {
-        question: "new question",
+        question: "What type of boats did the Vikings use when exploring and raiding?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "Longships", correct: true },
+            { text: "Shortships", correct: false },
+            { text: "Viking Hoards", correct: false },
+            { text: "Canoes", correct: false },
         ]
     },
     {
-        question: "3rd question",
+        question: "Mount Vesuvius erupted and destroyed Pompeii in what year?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "76 AD", correct: false },
+            { text: "77 AD", correct: false },
+            { text: "78 AD", correct: false },
+            { text: "79 AD", correct: true },
         ]
     },
     {
-        question: "4th question",
+        question: "Which space mission were Neil Armstrong and Buzz Aldrin a part of?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "Apollo 10", correct: false },
+            { text: "Apollo 11", correct: true },
+            { text: "Apollo 12", correct: false },
+            { text: "Apollo 13", correct: false },
         ]
     },
     {
-        question: "5th question",
+        question: "Martin Luther King Jr. was assassinated in which US state?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "Tennessee", correct: true },
+            { text: "Colorado", correct: false },
+            { text: "Florida", correct: false },
+            { text: "New Jersey", correct: false },
         ]
     }
 ];

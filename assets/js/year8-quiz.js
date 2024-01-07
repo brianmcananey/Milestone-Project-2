@@ -1,47 +1,47 @@
 const questions = [
     {
-        question: "which is the largest animal",
+        question: "How long was Queen Victoria’s reign?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "60 years", correct: false },
+            { text: "63 years", correct: true },
+            { text: "65 years", correct: false },
+            { text: "70 years", correct: false },
         ]
     },
     {
-        question: "new question",
+        question: "Who served as the final leader of the Soviet Union?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "Lenin", correct: false },
+            { text: "Stalin", correct: false },
+            { text: "Trotsky", correct: false },
+            { text: "Gorbachev", correct: true },
         ]
     },
     {
-        question: "3rd question",
+        question: "What was the final battle of the Napoleonic Wars?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "The Battle of Bosworth", correct: false },
+            { text: "The Battle of Boldon Hill", correct: false },
+            { text: "The Battle of Waterloo", correct: true },
+            { text: "The Battle of Hastings", correct: false },
         ]
     },
     {
-        question: "4th question",
+        question: "Which President of the United States abolished slavery?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "JFK", correct: false },
+            { text: "Abraham Lincoln", correct: true },
+            { text: "Ronald Reagen", correct: false },
+            { text: "Barack Obama", correct: false },
         ]
     },
     {
-        question: "5th question",
+        question: "Which Caribbean country played a key role in The Missile Scare during the Cold War?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "Jamaica", correct: false },
+            { text: "Cuba", correct: true },
+            { text: "Mexico", correct: false },
+            { text: "West Indies", correct: false },
         ]
     }
 ];
