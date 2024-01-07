@@ -1,47 +1,47 @@
 const questions = [
     {
-        question: "which is the largest animal",
+        question: "Where is the first recorded Viking raid in England?",
         answers: [
-            { text:"shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text:"York", correct: false },
+            { text: "Lindisfarne", correct: true },
+            { text: "Norfolk", correct: false },
+            { text: "London", correct: false },
         ]
     },
     {
-        question: "new question",
+        question: "Who chose the King of England after the death of Edward the Confessor?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "The Witan", correct: true },
+            { text: "The Parliament", correct: false },
+            { text: "The Great Council", correct: false },
+            { text: "The Shire Moot", correct: false },
         ]
     },
     {
-        question: "3rd question",
+        question: "How long was the Battle of Hastings?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "5 hours", correct: false },
+            { text: "6 hours", correct: false },
+            { text: "9 hours", correct: true },
+            { text: "12 hours", correct: false },
         ] 
     },
     {
-        question: "4th question",
+        question: "Of the 63 original clauses in the Magna Carta, how many are still valid today?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "4", correct: true },
+            { text: "8", correct: false},
+            { text: "12", correct: false },
+            { text: "16", correct: false },
         ]  
     },
     {
-        question: "5th question",
+        question: "What is the name for gaps between stonework on a castle wall?",
         answers: [
-            { text: "shark", correct: false },
-            { text: "blue whale", correct: true },
-            { text: "shark", correct: false },
-            { text: "shark", correct: false },
+            { text: "Merlons", correct: false },
+            { text: "Portcullis", correct: false },
+            { text: "Crenels", correct: true },
+            { text: "Embrasures", correct: false },
         ]   
     }
 ] ;

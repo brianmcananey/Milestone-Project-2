@@ -1,100 +1,130 @@
-// When the document loads, a question is generated immediately
-$(document).ready(function () {
-    showQuestion();
-});
-
-// An array of objects containing quiz questions and answers
 const questions = [
     {
-        question: "assets/images/main-img/african.jpg",
+        question: "which is the largest animal",
         answers: [
-            { text: 'Embrasures', correct: true },
-            { text: 'Cockatiel', correct: false },
-            { text: 'Burrowing', correct: false },
-            { text: 'Sun Conure', correct: false },
-        ],
+            { text: "shark", correct: false },
+            { text: "blue whale", correct: true },
+            { text: "shark", correct: false },
+            { text: "shark", correct: false },
+        ]
     },
     {
-        question: "assets/images/main-img/scarlet.jpg",
+        question: "new question",
         answers: [
-            { text: 'Meyers', correct: false },
-            { text: 'Scarlet Macaw', correct: true },
-            { text: 'Hyacinth Macaw', correct: false },
-            { text: 'Yellow-Naped Amazon', correct: false },
-        ],
+            { text: "shark", correct: false },
+            { text: "blue whale", correct: true },
+            { text: "shark", correct: false },
+            { text: "shark", correct: false },
+        ]
     },
     {
-        question: "assets/images/main-img/eclectus.jpg",
+        question: "3rd question",
         answers: [
-            { text: 'Senegal', correct: false },
-            { text: 'Indian Ringneck', correct: false },
-            { text: 'Eclectus', correct: true },
-            { text: 'Kakariki', correct: false },
-
-        ],
+            { text: "shark", correct: false },
+            { text: "blue whale", correct: true },
+            { text: "shark", correct: false },
+            { text: "shark", correct: false },
+        ]
     },
     {
-        question: "assets/images/main-img/cockatiel.jpg",
+        question: "4th question",
         answers: [
-            { text: 'Senegal', correct: false },
-            { text: 'Cockatiel', correct: true },
-            { text: 'Hyacinth Macaw', correct: false },
-            { text: 'Sun Conure', correct: false },
-        ],
+            { text: "shark", correct: false },
+            { text: "blue whale", correct: true },
+            { text: "shark", correct: false },
+            { text: "shark", correct: false },
+        ]
     },
     {
-        question: "assets/images/main-img/amazon.jpg",
+        question: "5th question",
         answers: [
-            { text: 'Sun Conure', correct: false },
-            { text: 'Kakariki', correct: false },
-            { text: 'Green Cheek Conure', correct: false },
-            { text: 'Yellow-Naped Amazon', correct: true },
-        ],
-    },
+            { text: "shark", correct: false },
+            { text: "blue whale", correct: true },
+            { text: "shark", correct: false },
+            { text: "shark", correct: false },
+        ]
+    }
 ];
 
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
 
-// Starts the current question index at 0
-var currentQuestionIndex = 0;
-var currentQuestion = questions[currentQuestionIndex];
+let currentQuestionIndex = 0;
+let score = 0;
 
-// Generates a new question
-function showQuestion() {
-    if (currentQuestionIndex < questions.length) {
-        currentQuestion = questions[currentQuestionIndex];
-        $('#question').attr('src', currentQuestion.question);
-        $('#option1').text(currentQuestion.answers[0].text);
-        $('#option2').text(currentQuestion.answers[1].text);
-        $('#option3').text(currentQuestion.answers[2].text);
-        $('#option4').text(currentQuestion.answers[3].text);
-    } else {
-
-        // Navigate to the score page and stores user score within the url
-        window.location.href = `score.html?score=${score}`;
-    }
-}
-
-// When user selects an answer a new question is generated
-function userAnswer(event) {
-    checkAnswer(event);
-    currentQuestionIndex++;
+function startQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
     showQuestion();
 }
 
-// Checks answer and triggers correctAnswer()
-function checkAnswer(event) {
-    const selectedAnswer = currentQuestion.answers.find((answer) => answer.text === event.target.textContent);
+function showQuestion() {
+    resetState();
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    if (selectedAnswer && selectedAnswer.correct) {
-        correctAnswer();
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
+    });
+}
+
+function resetState() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-// Logs user score
-let score = 0;
-
-// If correct = score + 1
-function correctAnswer() {
-    score = score + 1;
-    $('#q-score').text(score);
+function selectAnswer(e) {
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect) {
+        selectedBtn.classList.add("correct");
+        score++;
+    } else {
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButtons.children).forEach(button => {
+        if (button.dataset.correct === "true") {
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block";
 }
+
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
+function handleNextButton() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+nextButton.addEventListener("click", () => {
+    if (currentQuestionIndex < questions.length) {
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
+
+startQuiz();

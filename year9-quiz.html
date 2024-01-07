@@ -48,29 +48,27 @@
     </nav>
 
     <!-- Quiz Section-->
-    <main>
-        <div class="wrapper col-xs-12 col-sm-10 col-md-10 col-lg-8 mx-auto">
-            <h1 class="header">Year 9 Quiz</h1>
-            <div class="quiz-score">
-                <span>Score: <span id="q-score">0</span> / 5</span>
+<main>
+    <div class="wrapper col-xs-12 col-sm-10 col-md-10 col-lg-8 mx-auto">
+        <h1 class="header">Year 9 Quiz</h1>
+
+        <div id="quiz-container">
+            <div class="quiz">
+                <div id="question">Question goes here</div>
             </div>
-            <div id="quiz-container">
-                <div class="image-container">
-                    <!-- add question here-->
-                </div>
-                <div class="message">
-                    <p id="answer-message"></p>
-                </div>
-                <div class="q-btn d-grid gap-2 col-xs-12 col-sm-10 col-md-10 col-lg-8 mx-auto" id="answer-buttons">
-                    <button class="btn btn-light answer-btn" id="option1" onclick="userAnswer(event)"></button>
-                    <button class="btn btn-light answer-btn" id="option2" onclick="userAnswer(event)"></button>
-                    <button class="btn btn-light answer-btn" id="option3" onclick="userAnswer(event)"></button>
-                    <button class="btn btn-light answer-btn" id="option4" onclick="userAnswer(event)"></button>
-                </div>
+
+            <div class="btn-light d-grid gap-2 col-xs-12 col-sm-10 col-md-10 col-lg-8 mx-auto" id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
             </div>
+            <button id="next-btn" class="btn btn-light next-btn hide">Next</button>
         </div>
-        <hr>
-    </main>
+    </div>
+    </div>
+    <hr>
+</main>
 
     <!--Footer-->
     <footer>
