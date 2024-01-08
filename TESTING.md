@@ -120,3 +120,4 @@ It was suggested that I could add additional questions/difficulty levels into th
     2. Adding if/else statements to checkAnswer() function so that if the button is disabled it cancels the calling of the function.
     **Solution**: Removed the event listener and the generated 'next' button and added onclick targets to each button within the html. With this fix I have had to sacrifice the fun fact and the correct/incorrect answer message.
 - When user selects an answer the button from the previous selection remains depressed on the following question. In the future I would look at how to disable this button feature used by Bootstrap.
+- The performance level of the page needs improving to speed up loading time. This can be fixed at a later date as I did not have time.

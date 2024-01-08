@@ -111,9 +111,10 @@ The structure plane deals with the organising and arrangment of elements within 
 
 This plane is a more refined view of the user interface. Looking at the layout and visual hierarchy to ensure the site is both visually appealing and functional. I created a set of wireframes for different screen sizes, this is a simplified version of the final product, removing colour, typography, imagery to create a basic view of website and establish the layout.
 
-| Mobile Wireframes | Desktop Wireframes |
-|:---:|:---:|
-|![Mobile Wireframes](add wireframe)|![Tablet and Desktop Wireframes](add wireframe)|
+| Wireframes |
+|:---:|
+|![Wireframes](assets/images/wireframe.png) |
+|![Wireframes](assets/images/wireframe2.png) |
 
 
 ### 2.5 Surface
@@ -122,8 +123,8 @@ The surface plane is the last layer and deals with the aesthetics of the user in
 
 | Type | Image | Description|
 |:---:|---|---|
-|Typography|[a screenshot of font] <img src="assets/images/font.png2">| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
-|Colours|[a screenshot of colors used]<img src="assets/images/red.png"><img src="assets/images/blue.png">|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
+|Typography|[a screenshot of font] (assets/images/font.png)| I opted to use 'Montserrat' across the entire site as it is a simple and easy to read font that has a number of different style options that can be utilised in different areas. |
+|Colours|[a screenshot of colors used](assets/images/blue.png)(assets/images/red.png)|I chose to use a simple primary colour palette to keep the pages looking clean and easy to read. I chose a simple black and white colours for the quizes so they are easier to read.|
 
 ---
 
