@@ -6,6 +6,8 @@
 
 [Live Site](https://brianmcananey.github.io/Milestone-Project-2/)
 
+[Github](https://github.com/brianmcananey/Milestone-Project-2)
+
 <br>
 
 <h2 align="left"><img src="assets/images/desktop-image.png"></h2> 

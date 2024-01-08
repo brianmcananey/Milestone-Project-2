@@ -1,4 +1,4 @@
-[Return to README](https://github.com/brianmcananeyREADME.md)
+[Return to README](README.md)
 
 ---
 
