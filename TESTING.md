@@ -88,18 +88,30 @@ I also personally tested the website on Samsung Galaxy S22, Samsung Chrome book,
 
 ### CSS <!-- omit in toc -->
 
-![CSS Validation](assets/images/w3c.png)
+![CSS Validation](assets/images/css-w3c.png)
 
 - All pages passed the W3C CSS Validation.
+
+# A11y Color Contrast Accessibility Checker
+
+All website pages were tested using the A11y Color Contrast Accessibility Checker and no automated colour contrast issues were found.
+
+![a11y Color Validation](assets/images/a11y.png)
 
 ## JavaScript Testing <!-- omit in toc -->
 
 * I also ran both JS files through JSHint to make sure it was thoroughly tested.
- ![JSHint Testing](assets/images/testing-img/jshint-quiz.png)
- ![JSHint Testing](assets/images/testing-img/jshint-score.png)
+ ![JSHint Testing](assets/images/js_test.png)
+ ![JSHint Testing](assets/images/js-test2.png)
 - Throughout development I used console logs to test that the functions worked as intended.
- ![quiz.js console](assets/images/testing-img/quiz-console.png)
- ![score.js console](assets/images/testing-img/score-console.png)
+
+
+# Peer Review
+
+I asked a number of friends both inside and outside of the Code Institute community for feedback on my project. The feedback on the website and documentation was positive.
+
+It was suggested that I could add additional questions/difficulty levels into the quizes, for example, questions for GCSE levels 7 - 9. I decided not to add these as it felt like too late in the project but there is scope to provide changes in the future where applicable.
+
 
 ## Known bugs and fixes
 
